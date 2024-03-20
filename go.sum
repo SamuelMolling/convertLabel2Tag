@@ -1,0 +1,4 @@
+github.com/mongodb-forks/digest v1.0.5 h1:EJu3wtLZcA0HCvsZpX5yuD193/sW9tHiNvrEM5apXMk=
+github.com/mongodb-forks/digest v1.0.5/go.mod h1:rb+EX8zotClD5Dj4NdgxnJXG9nwrlx3NWKJ8xttz1Dg=
+go.mongodb.org/atlas-sdk/v20231115005 v20231115005.1.0 h1:a+XS6YZeoZByHQZodAP+GQ0soidSMb5N2M9kTjgPjeM=
+go.mongodb.org/atlas-sdk/v20231115005 v20231115005.1.0/go.mod h1:rtQDZDZ/Mcw6WA4n/IQVQgKzeaDk7btGvCU3HlKfX/k=
