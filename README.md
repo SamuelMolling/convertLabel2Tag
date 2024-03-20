@@ -16,3 +16,5 @@ export ATLAS_PRIVATE_KEY=<your-private-key>
 ```bash
 go run main.go
 ```
+
+teste
