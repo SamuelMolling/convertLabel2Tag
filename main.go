@@ -4,21 +4,18 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"os"
 
 	"go.mongodb.org/atlas-sdk/v20231115005/admin"
 )
 
 func main() {
-	getAllClusters()
-}
-
-func getAllClusters() {
 	ctx := context.Background()
 
-	apiKey := "YOUR_PUBLIC_KEY"
-	apiSecret := "YOUR_PRIVATE_KEY"
+	public_key := os.Getenv("ATLAS_PUBLIC_KEY")
+	private_key := os.Getenv("ATLAS_PRIVATE_KEY")
 
-	sdk, err := admin.NewClient(admin.UseDigestAuth(apiKey, apiSecret))
+	sdk, err := admin.NewClient(admin.UseDigestAuth(public_key, private_key))
 	if err != nil {
 		log.Fatalf("Error when instantiating new client: %v", err)
 	}
